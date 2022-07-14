@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+  width: 70%;
+  text-align: justify;
+}
+
+figure {
+  float: right;
+  margin: 0, 5em;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: justify;
+  margin: 1px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Verdana, sans-serif;
+  margin-top: 1.5em;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+table,
+th,
+td,
