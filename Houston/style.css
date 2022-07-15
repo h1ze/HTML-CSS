@@ -6,7 +6,7 @@ body {
 
 figure {
   float: right;
-  margin: 0, 5em;
+  margin: 0.5em;
 }
 
 figcaption {
@@ -23,9 +23,11 @@ h3 {
 }
 
 h1 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 table,
 th,
-td,
+td {
+  border: 1px solid black;
+}
