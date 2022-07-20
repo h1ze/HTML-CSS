@@ -1,0 +1,20 @@
+@import url("normalize.css");
+
+header {
+  position: fixed;
+  margin: 0;
+  background: #007765;
+}
+
+text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #ffffff;
+}
