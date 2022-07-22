@@ -1,14 +1,14 @@
 @import url("normalize.css");
 
 header {
-  padding: 20px;
+  padding: 5px;
   margin: 0;
   background: #007765;
-  text-align: right;
   position: sticky;
 }
 
-text {
+.header_text {
+  float: right;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -16,4 +16,8 @@ text {
   line-height: 28px;
   /* identical to box height */
   color: #ffffff;
+}
+
+figure {
+  text-align: left;
 }
