@@ -1,14 +1,22 @@
 @import url("normalize.css");
 
-header {
-  padding: 5px;
-  margin: 0;
+.content_block {
+  width: 1219px;
+  padding: 0px 55px;
+  margin: 0px;
+}
+
+.rectangle {
+  margin: 0px;
   background: #007765;
   position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header_text {
-  float: right;
+  padding-right: 10%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -16,8 +24,74 @@ header {
   line-height: 28px;
   /* identical to box height */
   color: #ffffff;
+  min-width: 400px;
 }
 
-figure {
-  text-align: left;
+.Logo {
+  display: block;
+  padding-left: 10%;
+  min-width: 300px;
+  position: relative;
+}
+
+.secondLogo {
+  position: absolute;
+}
+
+.phone_logo {
+  background-image: url(img/image-7.jpg); /*Установит фон элемента*/
+  background-size: cover; /*Масштабирует фоновое изображение, согласно заданным размерам*/
+  padding-top: 160px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+  padding-bottom: 160px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
+
+.main_title {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  color: #ffffff;
+  min-width: 400px;
+}
+
+.problem {
+  padding: 50px 100px;
+  background: #eeeeee;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.second_title {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+  text-align: center;
+  min-width: 400px;
+}
+
+.third_block {
+  background-image: url(img/image-6.jpg); /*Установит фон элемента*/
+  background-size: cover; /*Масштабирует фоновое изображение, согласно заданным размерам*/
+  padding-top: 128px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+  padding-bottom: 128px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
+
+.third_text {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
 }
